@@ -1,18 +1,17 @@
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Project_Gallery from './pages/Project_Gallery';
-import Menu from './components/Menu';
+import ProjectGallery from './pages/Project-Gallery';
+import './App.css'
 
-
-export default function App() {
-
+function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project_gallery" element={<Project_Gallery />} />
-      </Routes>
-    </>
+      <>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/ProjectGallery" element={<ProjectGallery />} />
+          </Routes>
+      </>
   );
 }
+
+export default App

@@ -1,0 +1,12 @@
+:root {
+    --cream: #fefae0;
+    --pink: #dc9d8f;
+    --purple: #69646f;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center !important;
+    background-color: var(--cream) !important;
+}
